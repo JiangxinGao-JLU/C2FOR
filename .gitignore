@@ -208,3 +208,5 @@ __marimo__/
 __pycache__/
 *.py[cod]
 *$py.class
+__pycache__/
+.idea/

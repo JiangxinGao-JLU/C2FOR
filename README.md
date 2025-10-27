@@ -1,6 +1,6 @@
 # Enhancing Point Cloud Registration through Graph Embedding and Coarse-to-Fine Outlier Rejection
 
-![network](assets/Fig2.pdf)
+![network](https://github.com/JiangxinGao-JLU/C2FOR/blob/main/assets/Fig2.pdf)
 
 ## Installation
 

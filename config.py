@@ -59,7 +59,7 @@ opt_arg.add_argument('--scheduler_interval', type=int, default=1)
 # Dataset and dataloader configurations
 data_arg = add_argument_group('Data')
 if dataset == '3DMatch':
-    data_arg.add_argument('--root', type=str, default='./dataset/')  #/data/yangshengcheng1/data2/
+    data_arg.add_argument('--root', type=str, default='./dataset/')
     data_arg.add_argument('--descriptor', type=str, default='fcgf', choices=['d3feat', 'fpfh', 'fcgf'])
     data_arg.add_argument('--inlier_threshold', type=float, default=0.10)
     net_arg.add_argument('--sigma_d', type=float, default=0.10)
